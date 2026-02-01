@@ -1,71 +1,97 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>HTML ALL TAGS DEMO PAGE</title>
-</head>
-<body>
- <CENTER><h1>HTML WEBPAGE DEMONSTRATION WITH MEDIA</h1></CENTER>
-   <H2>TAGS USED IN HTML</H2>
-   <P>This is the <b>bold text</b>,<i>italic text</i>,
-    <u>underline text</u>,<mark>Highlighted text</mark>,
-    <del>deleted text</del>,<ins>corrected word</ins>
-</P> 
-<h2>SUBSCRIPT TAG</h2>
-<H3>WATER FORMATION</H3> 
-<p>CHEMICAL REACTION:2H<SUB>2</SUB>+0<SUB>2</SUB>
--->2H<SUB>2</SUB>0</H4></H3></p> 
-<H3>CARBON DIOXIDE FORMATION</H3>
-<P>CHEMICAL REACTION:C+O<sub>2</sub>---->CO<sub>2</sub></P>
-<I><H2>SUPERSCRIPT TAG</H2></I>
-<P>MATHEMATICAL EQUATION:(a+b)<SUP>2</SUP>=a<sup>2</sup>+2ab+b
-    <sup>2</sup></P>
-    <p>CHEMICAL EQUATION:2na----->2Na<sup>+</sup>+2e<sup>-</sup></p>
-
-<h2>ORDERED LIST</h2>
-<ol>
-    <li>lion</li>
-     <li>tiger</li>
-      <li>leopard</li>
-       <li>black panther</li>
-</ol>
-<h2>UNORDERED LIST</h2>
-<ol>
-    <li>cow</li>
-    <li>dog</li>
-    <li>cat</li>
-    <li>goats</li>
+<!-- saved from url=(0058)file:///C:/Users/sujith/OneDrive/Documents/html/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-</ol>
+    <title>Internship Registration Form</title>
 
-<h2>LINK</h2>
-<p>Visit <a href="https://www.indiatoday.in/">india today</a> to get daily news</p>
-<figure>
-    <video width="500" height="300" controls>
-        <source src="C:\Users\sujith\Downloads\IMAGE\video.mp4" type="video/mp4">
-    </video>
-    <figcaption>Nature</figcaption>
-</figure>
-<h2>IMAGE</h2>
-<img src="C:\Users\sujith\Downloads\IMAGE\2im.avif" height="300" width="500">
 
-<h2>STUDENT SCORES</h2>
-<table border="1" cellpadding="10">
-<tr>
-    <th>student name</th>
-    <th>score</th>
-</tr>
-<tr>
-    <td>sujith</td>
-    <td>90</td>
-</tr>
-<tr>
-    <td>aravindh</td>
-    <td>95</td>
-</tr>
-<tr>
-    <td>shiju</td>
-    <td>80</td>
-</tr>
-</table>
-</body>
+</head><body>
+  <center> <h1>INTERNSHIP REGISTRATION FORM</h1></center> 
+    <form>
+
+    <h2>Personal Information</h2>
+    
+<label>Name:</label> 
+<input type="name" placeholder="Enter the name"><br><br>
+<label>Email id:</label>
+<input type="email" placeholder="email"><br><br>
+<label>phone no:</label>
+<select>
+    <option>+91</option>
+    <option>+1</option>
+    <option>+81</option>
+    <option>+44</option>
+    <option>+7</option>
+   <option>+52</option>
+</select>
+<input type="tel" placeholder="enter the mobile no"><br><br>
+
+<label>Gender:</label>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">others<br><br>
+<label>Date of Birth:</label>
+<input type="datetime-local">
+<h2>Educational Details</h2>
+<label>College Name:</label> 
+<input type="name" placeholder="Enter the clg name"><br><br>
+<label>Degree:</label> 
+<input type="name"><br><br>
+<label>Department:</label> 
+<input type="name"><br><br>
+<label>Year of study:</label> 
+<input type="name">
+<h2>Internship preferences</h2>
+<label>Internship Domain:</label> 
+<select>
+    <option>web development</option>
+    <option>Embedded system</option>
+    <option>c</option>
+    <option>c++</option>
+    <option>java</option>
+    <option>iot</option>
+</select><br><br>
+<label>Mode of internship:</label>
+<input type="radio" name="internship">Online
+<input type="radio" name="internship">Offline<br><br>
+<label>Duration:</label>
+<input type="number" min="1" max="6">months<br><br>
+<label>Technical Skills:</label><br>
+    <input type="checkbox">c<br>
+<input type="checkbox">c++<br>
+<input type="checkbox">Arduino<br>
+<input type="checkbox">java<br>
+<input type="checkbox">Full stack<br>
+<input type="checkbox">c#<br>
+<input type="checkbox">python<br>
+<h2>Account/Login Details</h2>
+<label>Username:</label>
+<input type="name"><br><br>
+<label>Password:</label>
+<input type="password">
+<h2>Address details</h2>
+<label>Address:</label>
+<textarea name="address" rows="5" column="50"></textarea><br><br>
+<label>City:</label>
+    <input type="text"><br><br>
+    <label>state:</label>
+    <input type="text"><br><br>
+    <label>pincode:</label>
+    <input type="number"><br>
+    <h2>Additional preferences</h2>
+    <label>Preferred Interview Time:</label>
+<input type="time"><br><br>
+<label>portfolio:</label>
+<input type="url"><br><br>
+<label>Favourite color:</label>
+<input type="color"><br><br>
+<h2>Document upload</h2>
+  <label>Upload Resume:</label>
+<input type="file"><br><br>
+  <label>Upload certificates:</label>
+<input type="file"><br><br>
+
+<input type="checkbox">
+I hereby declare that the information provided above is true and correct.<br><br>
+<center><input type="submit">
+<input type="reset"></center></form></body></html>
